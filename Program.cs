@@ -1,7 +1,7 @@
 ﻿namespace TexEditor {
     class Program {
         static void Main(string[] args) {
-
+            MenuApp();
         }
 
         static void MenuApp() {
@@ -16,14 +16,29 @@
             option = short.Parse(Console.ReadLine());
 
             switch(option) {
-                case 1: break;
-                case 2: break;
-                default: break;
+                case 1: Open_File(); break;
+                case 2: Edit_File(); break;
+                case 0: System.Environment.Exit(0); break;
+                default: MenuApp(); break;
             }
         }
 
-        static void Create_File() {}
         static void Open_File() {}
-        static void Edit_File() {}
+        static void Edit_File() {
+            string text = "";
+
+            Console.Clear();
+            Console.WriteLine("Type your text below");
+            Console.WriteLine("-----------------------");
+
+            do {
+                text += Console.ReadLine();
+                text += Environment.NewLine;
+
+            } while (Console.ReadKey().Key != ConsoleKey.Escape);
+
+            Console.Write(text);
+            
+        }
     }
 }

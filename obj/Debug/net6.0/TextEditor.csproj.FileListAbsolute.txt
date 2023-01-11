@@ -1,0 +1,15 @@
+/home/pombo/Dev/C#/TextEditor/bin/Debug/net6.0/TextEditor
+/home/pombo/Dev/C#/TextEditor/bin/Debug/net6.0/TextEditor.deps.json
+/home/pombo/Dev/C#/TextEditor/bin/Debug/net6.0/TextEditor.runtimeconfig.json
+/home/pombo/Dev/C#/TextEditor/bin/Debug/net6.0/TextEditor.dll
+/home/pombo/Dev/C#/TextEditor/bin/Debug/net6.0/TextEditor.pdb
+/home/pombo/Dev/C#/TextEditor/obj/Debug/net6.0/TextEditor.csproj.AssemblyReference.cache
+/home/pombo/Dev/C#/TextEditor/obj/Debug/net6.0/TextEditor.GeneratedMSBuildEditorConfig.editorconfig
+/home/pombo/Dev/C#/TextEditor/obj/Debug/net6.0/TextEditor.AssemblyInfoInputs.cache
+/home/pombo/Dev/C#/TextEditor/obj/Debug/net6.0/TextEditor.AssemblyInfo.cs
+/home/pombo/Dev/C#/TextEditor/obj/Debug/net6.0/TextEditor.csproj.CoreCompileInputs.cache
+/home/pombo/Dev/C#/TextEditor/obj/Debug/net6.0/TextEditor.dll
+/home/pombo/Dev/C#/TextEditor/obj/Debug/net6.0/refint/TextEditor.dll
+/home/pombo/Dev/C#/TextEditor/obj/Debug/net6.0/TextEditor.pdb
+/home/pombo/Dev/C#/TextEditor/obj/Debug/net6.0/TextEditor.genruntimeconfig.cache
+/home/pombo/Dev/C#/TextEditor/obj/Debug/net6.0/ref/TextEditor.dll
