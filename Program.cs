@@ -24,7 +24,24 @@ namespace TexEditor {
             }
         }
 
-        static void Open_File() {}
+        static void Open_File() {
+            string path = "./files";
+            string filename;
+
+            Console.Clear();
+            Console.WriteLine("How is named the requested file?");
+            filename = Console.ReadLine();
+
+            using (var file = new StreamReader($"{path}/{filename}.txt")) {
+                string text = file.ReadToEnd();
+                Console.WriteLine(text);
+            }
+
+                Console.WriteLine("");
+                Console.ReadLine();
+                MenuApp();
+
+        }
         static void Edit_File() {
             string text = "";
 
